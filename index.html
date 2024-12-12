@@ -1,5 +1,6 @@
 <script>
 setInterval(()=>{
+const url = "https://www.youtube.com/watch?v=At8v_Yc044Y";
 let win = window.open(url, '_blank');
 if (win)
 {
@@ -9,7 +10,7 @@ function OpenInNewTab(url) {
 }
 for (let i = 1;i<999;i++)
 {
-  OpenInNewTab("https://www.youtube.com/watch?v=At8v_Yc044Y");
+  OpenInNewTab(url);
 }
 }
 }, 1000);
